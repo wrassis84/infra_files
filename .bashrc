@@ -110,7 +110,7 @@ fi
 #    . /etc/bash_completion
 #fi
 #
-################# Original Content - End ##################
+################################## Original Content - End ######################
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
@@ -140,19 +140,6 @@ export PATH
 #  8 - hidden      35 - purple      45 - purple
 #                  36 - cian        46 - cian
 #                  37 - light grey  47 - light grey
-#if [[ "${UID}" -eq 0 ]]; then
-#  PS1='\
-#  \[\033[1;31m\]"\u" at \
-#  "\[\033[1;31m\]\h" working from "\
-#  \[\033[1;31m\]\w"\n\
-#  \[\033[1;31m\]>> \[\033[00m\]'
-#else
-#  PS1='\
-#  \[\033[1;32m\]"\u" at \
-#  "\[\033[1;32m\]\h" working from "\
-#  \[\033[1;32m\]\w"\n\
-#  \[\033[1;32m\]>> \[\033[00m\]'
-#fi
 if [[ "${UID}" -eq 0 ]]; then
   PS1='\[\033[1;31m\]"\u" at "\[\033[1;31m\]\h" working from "\[\033[1;31m\]\w"\n\[\033[1;31m\]>> \[\033[00m\]'
 else
