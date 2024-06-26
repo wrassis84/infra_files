@@ -29,7 +29,7 @@ $repo="https://github.com/wrassis84/infra_files.git"
 cd ~
 git clone $repo
 cp infra_files/.bashrc $HOME/.bashrc
-cp infra_files/.bashrc_root /root/.bashrc
+cp infra_files/.bashrc /root/.bashrc
 cp infra_files/.vimrc $HOME/.vimrc /root/.vimrc
 cp infra_files/issue /etc/issue
 cp infra_files/issue.net /etc/issue.net
