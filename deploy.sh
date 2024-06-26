@@ -17,7 +17,8 @@
 # GNU bash, version 5.2.21
 #
 #### TESTS/VALIDATIONS   #######################################################
-
+# Check if file itself has execution permission
+[ ! -x "$0" ] && sudo chmod +x "$0" && exit 1
 #### VARIABLES           #######################################################
 #
 $repo="https://github.com/wrassis84/infra_files.git"
@@ -37,4 +38,3 @@ cp infra_files/motd /etc/motd
 cp infra_files/sshd_config /etc/ssh/sshd_config
 #
 #### MAIN CODE           #######################################################
-# TODO: Check execution permissions for this script file itself.
