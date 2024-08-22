@@ -21,7 +21,7 @@
 [ ! -x "$0" ] && sudo chmod +x "$0" && exit 1
 #### VARIABLES           #######################################################
 #
-$repo="https://github.com/wrassis84/infra_files.git"
+repo="https://github.com/wrassis84/infra_files.git"
 #
 #### FUNCTIONS           #######################################################
 
